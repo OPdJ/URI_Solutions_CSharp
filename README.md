@@ -1,5 +1,6 @@
-# URI Solutions CSharp
-Resolução de Problemas do [URI Online] (https://www.urionlinejudge.com.br), Cada Branch é composto pelo niveis de
-dificuldade:
+# URI Solutions CSharp Iniciante
+Resolução de Problemas do [URI Online] (https://www.urionlinejudge.com.br).
 
-* [Iniciante]
+Utilizar Template _URI_TEMPLATE.cs_ quando for adicionado um novo problema, onde "TEMPLATE" é o número do problema. 
+
+Nível Iniciante.
