@@ -1,5 +1,5 @@
 /*
-  Status Submissão: Accepted!
+  Status Submissão: Accepted ☑
 
   Leia um valor inteiro. A seguir, calcule o menor número de notas possíveis
   (cédulas) no qual o valor pode ser decomposto. As notas consideradas são de
