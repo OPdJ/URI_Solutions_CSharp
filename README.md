@@ -6,7 +6,7 @@ Utilizar Template **_URI_TEMPLATE.cs_** quando for adicionado um novo problema. 
 Status de Submissão (legendas):
   * ⚠: Wrong Answer<br>
   * ☑: Accepted<br>
-  * ⛔: Runtime Error  
+  * ⚑: Runtime Error  
 
 Nível Iniciante (Andamento).
   * (Links dos problemas em breve)
