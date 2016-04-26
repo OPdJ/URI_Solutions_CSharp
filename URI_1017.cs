@@ -1,5 +1,5 @@
 /*
-  Status Submissão: Wrong Answer ⚠
+  Status Submissão: Accepted ☑
 
   Joaozinho quer calcular e mostrar a quantidade de litros de combustível
   gastos em uma viagem, ao utilizar um automóvel que faz 12 KM/L. Para isso, ele
@@ -17,8 +17,9 @@ class URI{
 
     int a = int.Parse(Console.ReadLine());
     int b = int.Parse(Console.ReadLine());
-    double x = Convert.ToDouble(a*b);
 
-    Console.WriteLine(Math.Round(x/consumo,3));
+    double x = Convert.ToDouble(a*b);
+    string litros = Math.Round(x/consumo,3).ToString("0.000");
+    Console.WriteLine(litros);
   }
 }

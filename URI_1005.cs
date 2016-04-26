@@ -1,5 +1,5 @@
 /*
-  Status Submissão: Wrong Answer ⚠
+  Status Submissão: Accepted ☑
 
   Leia 2 valores de ponto flutuante de dupla precisão A e B, que correspondem a
   2 notas de um aluno. A seguir, calcule a média do aluno, sabendo que a nota A
@@ -11,16 +11,10 @@ using System;
 class URI{
   static void Main(string[] args){
 
-    string x = Console.ReadLine().ToString();
-    string y = Console.ReadLine();
-    double a;
-    double b;
+    double a = double.Parse(Console.ReadLine());
+    double b = double.Parse(Console.ReadLine());
 
-    double.TryParse(x, out a);
-    double.TryParse(y, out b);
-
-    decimal media = Convert.ToDecimal(Math.Round(((3.5 * a) + (7.5 * b)) / 11.0, 5));
-
+    string media = Math.Round(((3.5 * a) + (7.5 * b)) / 11.0, 5).ToString("0.00000");
     Console.WriteLine("MEDIA = {0}", media);
   }
 }
