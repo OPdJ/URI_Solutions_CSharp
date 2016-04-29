@@ -13,7 +13,7 @@ using System;
 
 class URI{
   static void Main(string[] args){
-    string[] periodos = {"ano(s)", "mes(es)", "dia(s)"};
+    string[] periodos = {"ano", "mes", "dia"};
     int year, month, day;
 
     int x = int.Parse(Console.ReadLine());
@@ -21,8 +21,8 @@ class URI{
     month = (x%365)/30;
     day = (x%365)%30;
 
-    Console.WriteLine("{0} {1}", year, periodos[0]);
-    Console.WriteLine("{0} {1}", month, periodos[1]);
-    Console.WriteLine("{0} {1}", day, periodos[2]);
+    Console.WriteLine("{0} {1}(s)", year, periodos[0]);
+    Console.WriteLine("{0} {1}(es)", month, periodos[1]);
+    Console.WriteLine("{0} {1}(s)", day, periodos[2]);
   }
 }
