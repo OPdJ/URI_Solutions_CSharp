@@ -20,8 +20,7 @@ class URI{
     {
         aux = y/x[i];
         Console.WriteLine("{0} nota(s) de R$ {1},00", aux, x[i]);
-        aux = (y%x[i]);
-        y = aux;
+        y = (y%x[i]);
     }
   }
 }
