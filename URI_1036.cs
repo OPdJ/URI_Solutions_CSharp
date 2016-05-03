@@ -1,5 +1,5 @@
 /*
-  Status Submissão:
+  Status Submissão: Accepted ☑
 
   Leia 3 valores de ponto flutuante e efetue o cálculo das raízes da equação de
   Bhaskara. Se não for possível calcular as raízes, mostre a mensagem correspondente
@@ -17,8 +17,7 @@ class URI{
     var valueC = double.Parse(values[2]);
 
     var delta = (Math.Pow(valueB, 2) - 4*valueA*valueC);
-    Console.WriteLine(delta);
-    if((delta != 0 && delta > 0))
+    if((delta != 0) && (valueA > 0) && (delta > 0))
     {
       var bhaskR1 = Math.Round((-valueB+Math.Sqrt(delta))/(2*valueA), 5).ToString("0.00000");
       var bhaskR2 = Math.Round((-valueB-Math.Sqrt(delta))/(2*valueA), 5).ToString("0.00000");

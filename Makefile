@@ -8,5 +8,8 @@ $(FILE): compile
 compile: $(FILE).cs
 	mcs $< -out:$(FILE).exe
 
+hadouken: $(FILE).exe
+	mono $(FILE).exe
+
 clean:
 	rm $(FILE).exe
