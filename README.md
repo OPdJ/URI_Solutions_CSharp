@@ -7,5 +7,6 @@ Status de Submissão (legendas):
   * ⚠: Wrong Answer<br>
   * ☑: Accepted<br>
   * ⚑: Runtime Error  
+  
 Categoria:
   * Nível Iniciante ([Andamento](https://github.com/OPdJ/URI_Solutions_CSharp/tree/master/Iniciante)).
