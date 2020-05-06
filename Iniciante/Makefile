@@ -1,4 +1,4 @@
-FILE = uri_number
+FILE = URI_1044
 
 all : $(FILE)
 
@@ -12,4 +12,4 @@ hadouken: $(FILE).exe
 	mono $(FILE).exe
 
 clean:
-	rm $(FILE).exe
+	del /f $(FILE).exe
